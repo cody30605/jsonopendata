@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.cody.NewTaipeiParking">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".queue"
+        android:allowBackup="true"
+
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.新北市停車資訊">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7237500042368815~3798218241"/>
+        <activity android:name=".MainActivity"
+                    android:label="新北市停車資訊"
+                    android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".t1新北市公共自行車租賃系統YouBike"
+                    android:label="公共自行車租賃系統YouBike"
+                    android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".t2新北市境內颱風期間可供停車之路段"
+                    android:label="境內颱風期間可供停車路段"
+                    android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".t3新北市婦幼停車位"
+                    android:label="婦幼停車位"
+                    android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".t4新北市機車停車資訊"
+                    android:label="機車停車資訊"
+                    android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".t5新北市路外公共停車場資訊"
+                    android:label="路外公共停車場資訊"
+                    android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".t6新北市路邊停車場身心障礙停車格"
+                    android:label="路邊停車場身心障礙停車格"
+                    android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".t7新北市路邊停車空位查詢"
+                    android:label="路邊停車空位查詢"
+                    android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".t8新北市路邊收費停車場"
+                    android:label="路邊收費停車場"
+                    android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".t9新北市路邊收費停車場停車欠費查詢"
+                    android:label="路邊收費停車場停車欠費查詢"
+                    android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>
